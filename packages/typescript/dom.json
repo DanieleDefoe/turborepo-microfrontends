@@ -1,0 +1,14 @@
+{
+  "extends": ["@vue/tsconfig/tsconfig.dom.json", "./tsconfig.json"],
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "tsBuildInfoFile": "${configDir}/node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "paths": { "@/*": ["${configDir}/src/*"] }
+  },
+  "include": [
+    "${configDir}/src/**/*.ts",
+    "${configDir}/src/**/*.tsx",
+    "${configDir}/src/**/*.vue"
+  ],
+  "exclude": ["${configDir}/src/**/__tests__/*", "${configDir}/dist"]
+}

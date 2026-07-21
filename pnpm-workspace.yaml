@@ -1,0 +1,12 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+catalog:
+  typescript: ^6.0.0
+
+# trustPolicy: no-downgrade
+minimumReleaseAge: 0
+blockExoticSubdeps: true
+allowBuilds:
+  esbuild: true

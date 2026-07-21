@@ -1,0 +1,15 @@
+{
+  "extends": ["@tsconfig/node22/tsconfig.json", "./tsconfig.json"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["node"],
+    "noEmit": true,
+    "tsBuildInfoFile": "${configDir}/node_modules/.tmp/tsconfig.node.tsbuildinfo"
+  },
+  "include": [
+    "${configDir}/vite.config.ts",
+    "${configDir}/vitest.config.ts",
+    "${configDir}/.storybook/**/*.ts"
+  ]
+}

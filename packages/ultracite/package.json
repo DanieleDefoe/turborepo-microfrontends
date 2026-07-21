@@ -1,0 +1,11 @@
+{
+    "name": "@ap/ultracite",
+    "type": "module",
+    "scripts": {},
+    "exports": {},
+    "imports": {},
+    "devDependencies": {
+        "typescript": "catalog:",
+        "@ap/typescript": "workspace:*"
+    }
+}

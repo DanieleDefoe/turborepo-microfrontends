@@ -1,0 +1,9 @@
+{
+  "name": "@ap/typescript",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@tsconfig/node22": "^22.0.5",
+    "@vue/tsconfig": "^0.9.1"
+  }
+}

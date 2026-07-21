@@ -1,0 +1,6 @@
+{
+    "name": "@ap/dashboard",
+    "dependencies": {
+        "@ap/ui": "workspace:*"
+    }
+}
