@@ -11,6 +11,7 @@ export default defineConfig({
     vue(),
     tailwindcss(),
     federation({
+      dts: false,
       exposes: { "./routes": "./src/routes.ts" },
       filename: "remoteEntry.js",
       name: "userPortal",
