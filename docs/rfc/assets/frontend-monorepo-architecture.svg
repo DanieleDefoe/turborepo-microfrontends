@@ -1,0 +1,831 @@
+<svg
+  height="951"
+  version="1.1"
+  viewBox="0 0 990 951"
+  width="990"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- svg-source:excalidraw -->
+  <metadata></metadata>
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: Virgil;
+        src: url(data:font/woff2;base64,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);
+      }
+    </style>
+  </defs>
+  <rect fill="#ffffff" height="951" width="990" x="0" y="0"></rect>
+  <g transform="translate(270 10) rotate(0 200 18)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="24px"
+      style="white-space: pre;"
+      text-anchor="start"
+      x="0"
+      y="21.144"
+    >
+      ap.frontend — целевая архитектура (Вариант А)
+    </text>
+  </g>
+  <g stroke-linecap="round" transform="translate(330 70) rotate(0 160 30)">
+    <path
+      d="M15 0 C95.27 0.85, 179 -2.66, 305 0 C314.02 1.59, 322.38 7.97, 320 15 C323.13 25.4, 318 38.61, 320 45 C320.67 54.54, 313.72 56.79, 305 60 C221.69 60.57, 134.88 64.17, 15 60 C2.85 60.67, 1.44 56.06, 0 45 C1.32 37.46, -2.67 30.83, 0 15 C-1.59 5.2, 5.63 -3.07, 15 0"
+      fill="#f5f5f5"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M15 0 C71.52 -0.03, 132.18 -0.93, 305 0 M15 0 C75.1 1.2, 135.44 0.49, 305 0 M305 0 C314.84 1.41, 318.3 5.78, 320 15 M305 0 C315.48 0.96, 322.01 3.94, 320 15 M320 15 C319.67 23.86, 321.55 28.93, 320 45 M320 15 C320.77 23.17, 319.26 30.93, 320 45 M320 45 C318.33 54.62, 315.78 61.92, 305 60 M320 45 C321.65 53.58, 316.6 59.84, 305 60 M305 60 C241.92 61.11, 178.06 61.32, 15 60 M305 60 C240.9 59.41, 176.3 60.14, 15 60 M15 60 C4.58 61.98, -0.46 56.39, 0 45 M15 60 C5.33 62.05, 0.33 54.05, 0 45 M0 45 C0.16 36.6, -0.1 32.68, 0 15 M0 45 C0.48 36.83, -0.46 28.4, 0 15 M0 15 C0.1 6.95, 5.28 -0.31, 15 0 M0 15 C-1.78 5.9, 3.09 1.91, 15 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(340 88) rotate(0 150 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="150"
+      y="14.096"
+    >
+      Браузер
+    </text>
+  </g>
+  <g stroke-linecap="round" transform="translate(330 180) rotate(0 160 30)">
+    <path
+      d="M15 0 C120.23 2.91, 224.3 1.3, 305 0 C316.64 -0.41, 321.17 7.35, 320 15 C322.13 27.4, 319.06 34.63, 320 45 C317.75 57.68, 316.04 57.18, 305 60 C193.69 59.93, 78.05 61.73, 15 60 C4.3 57.74, -0.72 53.52, 0 45 C-0.41 39.53, -1.19 32.26, 0 15 C0.41 1.79, 2.66 -2.55, 15 0"
+      fill="#e7f0fd"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M15 0 C71.54 -0.73, 131.86 -2.54, 305 0 M15 0 C77.96 0.97, 140.64 -0.44, 305 0 M305 0 C316.67 0.82, 318.61 4.57, 320 15 M305 0 C313.66 -0.38, 321.72 5.18, 320 15 M320 15 C321.05 24.72, 320.79 32.85, 320 45 M320 15 C320.84 24.35, 319.82 33.85, 320 45 M320 45 C318.67 56.24, 314.55 61.83, 305 60 M320 45 C321 54.46, 315.9 61.98, 305 60 M305 60 C235.35 61.54, 165.62 61.97, 15 60 M305 60 C234.05 61.74, 164.35 61.7, 15 60 M15 60 C6.17 61.95, 1.08 55.77, 0 45 M15 60 C3.36 61.81, -1.63 55.39, 0 45 M0 45 C2.03 36.2, 1.51 30.37, 0 15 M0 45 C0.26 35.66, 0.37 24.79, 0 15 M0 15 C-1.79 6.9, 3.56 1.38, 15 0 M0 15 C-1.27 4.51, 3.48 1.53, 15 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(340 198) rotate(0 150 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="150"
+      y="14.096"
+    >
+      cfg.instance прокси (единый хост, cookie-сессия)
+    </text>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(490 130) rotate(0 0 25)">
+      <path
+        d="M-0.59 -1.2 C-0.54 7.16, -0.89 41.96, -0.91 50.34 M1.31 0.79 C1.83 8.76, 1.84 40.21, 1.32 48.4"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(490 130) rotate(0 0 25)">
+      <path
+        d="M-6.61 24.69 C-6.98 27.96, -2.83 33.08, 1.32 48.4 M-6.61 24.69 C-5.44 29.94, -3.49 34.41, 1.32 48.4"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(490 130) rotate(0 0 25)">
+      <path
+        d="M10.49 25.14 C6.69 28.23, 7.42 33.26, 1.32 48.4 M10.49 25.14 C7.83 30.34, 5.95 34.71, 1.32 48.4"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+  </g>
+  <mask></mask>
+  <g stroke-linecap="round" transform="translate(290 300) rotate(0 200 55)">
+    <path
+      d="M27.5 0 C159.22 2.08, 290.92 3.17, 372.5 0 C389.2 -3.42, 399.34 10.57, 400 27.5 C402.05 43.65, 398.47 64.27, 400 82.5 C396.96 97.43, 391.75 111.37, 372.5 110 C292.97 108.7, 208.57 107.91, 27.5 110 C7.05 110.54, 3.24 102.74, 0 82.5 C-1.4 61.96, 2.64 46.37, 0 27.5 C-0.17 8.05, 9.57 -1.76, 27.5 0"
+      fill="#d3e5ff"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M27.5 0 C95.26 -0.35, 165.87 0.81, 372.5 0 M27.5 0 C140.3 -1.62, 254.15 -1.82, 372.5 0 M372.5 0 C391.26 1.93, 399.07 8.91, 400 27.5 M372.5 0 C391.37 -0.1, 398.99 11.21, 400 27.5 M400 27.5 C398.96 39.95, 401.5 56.12, 400 82.5 M400 27.5 C400.59 43.78, 399.32 58.07, 400 82.5 M400 82.5 C401.17 102.5, 390.55 109.71, 372.5 110 M400 82.5 C400.03 99.31, 390.69 108.3, 372.5 110 M372.5 110 C245.29 112.09, 117.62 110.12, 27.5 110 M372.5 110 C243.13 111.73, 113.87 112, 27.5 110 M27.5 110 C8.71 111.91, -0.61 102.69, 0 82.5 M27.5 110 C6.87 109.14, 0.02 100.95, 0 82.5 M0 82.5 C0.93 66.76, 2.02 55.71, 0 27.5 M0 82.5 C0.23 62.8, -0.08 43.66, 0 27.5 M0 27.5 C1.36 10.99, 9.14 -0.09, 27.5 0 M0 27.5 C1.8 8.88, 8.24 0.95, 27.5 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(300 343) rotate(0 190 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="190"
+      y="14.096"
+    >
+      apps/shell — MF host
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="190"
+      y="34.096000000000004"
+    >
+      chrome · vue-router · useAuth() · degradation
+    </text>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(490 240) rotate(0 0 30)">
+      <path
+        d="M0.92 -1.2 C1.19 8.85, 0.46 49.64, 0.43 59.91 M-0.05 0.79 C0.2 11.06, -0.36 51.82, -0.28 61.41"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(490 240) rotate(0 0 30)">
+      <path
+        d="M-8.74 37.88 C-9.1 43.25, -5.56 48.52, -0.28 61.41 M-8.74 37.88 C-5.66 46.31, -3.56 52.95, -0.28 61.41"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(490 240) rotate(0 0 30)">
+      <path
+        d="M8.36 37.95 C4.57 43.44, 4.69 48.69, -0.28 61.41 M8.36 37.95 C5.7 46.19, 2.06 52.81, -0.28 61.41"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+  </g>
+  <mask></mask>
+  <g stroke-linecap="round" transform="translate(10 480) rotate(0 150 50)">
+    <path
+      d="M25 0 C125.86 1.14, 222.08 -0.29, 275 0 C293.96 0.77, 297.52 8.8, 300 25 C300.13 42.49, 303.25 59.66, 300 75 C303.37 89.38, 292.46 98.35, 275 100 C207 100.07, 137.53 102.03, 25 100 C4.79 103.34, 0 89.76, 0 75 C-0.74 63.99, 0.92 50.28, 0 25 C-0.76 9.31, 11.47 -0.97, 25 0"
+      fill="#d9f2e5"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M25 0 C73.45 2.86, 124.84 1.19, 275 0 M25 0 C85.49 1.54, 143.98 0.95, 275 0 M275 0 C290.85 -0.96, 299.52 8.25, 300 25 M275 0 C289.48 0.19, 300.86 7.64, 300 25 M300 25 C301.91 35.8, 299.26 47.63, 300 75 M300 25 C300.36 39.2, 298.82 51.29, 300 75 M300 75 C299.67 89.77, 291.55 101.58, 275 100 M300 75 C299.06 93.76, 290.47 99.21, 275 100 M275 100 C200.48 99.74, 124.94 100.91, 25 100 M275 100 C198.86 98.64, 121.62 97.72, 25 100 M25 100 C10.25 101.88, 1.7 90.6, 0 75 M25 100 C9.98 101.07, 1.67 91.5, 0 75 M0 75 C-0.34 59.46, -1.65 46.35, 0 25 M0 75 C1.14 57.18, 0.42 40.01, 0 25 M0 25 C0.51 10.08, 9.73 -1.55, 25 0 M0 25 C0.28 8.25, 7.99 0.37, 25 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(20 518) rotate(0 140 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="140"
+      y="14.096"
+    >
+      apps/user-portal — remote
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="140"
+      y="34.096000000000004"
+    >
+      FSD: app→pages→…→shared
+    </text>
+  </g>
+  <g stroke-linecap="round" transform="translate(670 480) rotate(0 150 50)">
+    <path
+      d="M25 0 C91.92 -4.37, 166.79 -3.73, 275 0 C289.38 -1.23, 303.5 8.17, 300 25 C298.9 43.59, 296.88 61.07, 300 75 C300.45 92.52, 294.77 98.74, 275 100 C182.81 99.64, 88.27 99.65, 25 100 C6.24 100.41, -2.16 94.42, 0 75 C-2.15 65.94, 2.73 51.5, 0 25 C1.24 5.91, 8.5 -0.45, 25 0"
+      fill="#d9f2e5"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M25 0 C73.47 -0.89, 124.49 -0.29, 275 0 M25 0 C86.44 1.44, 148.6 0.07, 275 0 M275 0 C292.69 -1.55, 299.83 7.03, 300 25 M275 0 C292.26 -1.15, 300.57 8.88, 300 25 M300 25 C299.19 37.56, 298.42 53.36, 300 75 M300 25 C300.53 41.44, 299.49 56.35, 300 75 M300 75 C300.01 91.39, 290.33 101.5, 275 100 M300 75 C298.41 90.04, 289.78 101.35, 275 100 M275 100 C194.6 100.26, 117.21 101.66, 25 100 M275 100 C192.82 100.89, 109.8 100.77, 25 100 M25 100 C7.84 101.85, -0.76 89.99, 0 75 M25 100 C8.01 100.82, -0.29 92.85, 0 75 M0 75 C1.49 58.76, -0.08 47.42, 0 25 M0 75 C0.06 64.61, 0.4 53.61, 0 25 M0 25 C-1.38 10.03, 8.01 0.14, 25 0 M0 25 C0.79 6.86, 8.38 -0.01, 25 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(680 518) rotate(0 140 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="140"
+      y="14.096"
+    >
+      apps/web-editor — remote
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="140"
+      y="34.096000000000004"
+    >
+      FSD: app→pages→…→shared
+    </text>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(360 410) rotate(0 -85 35)">
+      <path
+        d="M1.03 -1.19 C-27.06 10.41, -141.22 57.42, -169.72 69.2 M0.12 0.8 C-28 12.56, -142.04 58.7, -170.53 70.32"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(360 410) rotate(0 -85 35)">
+      <path
+        d="M-151.98 53.55 C-157.74 57.53, -160.81 60.42, -170.53 70.32 M-151.98 53.55 C-156.45 57.78, -160.79 61.44, -170.53 70.32"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(360 410) rotate(0 -85 35)">
+      <path
+        d="M-145.54 69.4 C-152.54 70.26, -156.9 69.97, -170.53 70.32 M-145.54 69.4 C-151.7 69.58, -157.67 69.2, -170.53 70.32"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+  </g>
+  <mask></mask>
+  <g transform="translate(205 421) rotate(0 75 9)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#666666"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="13px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="75"
+      y="11.453"
+    >
+      import('userPortal/routes')
+    </text>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(620 410) rotate(0 100 35)">
+      <path
+        d="M-0.36 -1.19 C33.36 10.28, 167.75 57.12, 201.17 68.91 M1.65 0.8 C35.42 12.38, 167.87 58.24, 200.84 69.88"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(620 410) rotate(0 100 35)">
+      <path
+        d="M175.84 70.21 C178.87 72.17, 184.05 70.43, 200.84 69.88 M175.84 70.21 C183.4 70.9, 188.44 69.25, 200.84 69.88"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(620 410) rotate(0 100 35)">
+      <path
+        d="M181.48 54.06 C183.38 59.25, 187.44 60.74, 200.84 69.88 M181.48 54.06 C187.57 59.03, 191.12 61.64, 200.84 69.88"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+  </g>
+  <mask></mask>
+  <g transform="translate(650 421) rotate(0 75 9)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#666666"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="13px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="75"
+      y="11.453"
+    >
+      import('webEditor/routes')
+    </text>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(230 480) rotate(0 90 -35)">
+      <path
+        d="M0.64 -1.19 C30.79 -12.77, 149.72 -57.45, 179.67 -68.97"
+        fill="none"
+        stroke="#888888"
+        stroke-dasharray="8 10"
+        stroke-width="2.5"
+      ></path>
+    </g>
+    <g transform="translate(230 480) rotate(0 90 -35)">
+      <path
+        d="M160.74 -52.64 C162.48 -56.57, 169.98 -58.73, 179.67 -68.97"
+        fill="none"
+        stroke="#888888"
+        stroke-width="2.5"
+      ></path>
+    </g>
+    <g transform="translate(230 480) rotate(0 90 -35)">
+      <path
+        d="M154.67 -68.63 C157.7 -69.38, 166.41 -68.34, 179.67 -68.97"
+        fill="none"
+        stroke="#888888"
+        stroke-width="2.5"
+      ></path>
+    </g>
+  </g>
+  <mask></mask>
+  <g transform="translate(250 421) rotate(0 75 9)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#666666"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="13px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="75"
+      y="11.453"
+    >
+      shell/auth
+    </text>
+  </g>
+  <g stroke-linecap="round" transform="translate(360 470) rotate(0 130 30)">
+    <path
+      d="M15 0 C105.8 1.66, 196.12 -1.31, 245 0 C255.99 -2.05, 258.64 2.33, 260 15 C257.33 26.58, 263.56 33.93, 260 45 C263.15 54.02, 252.98 60.3, 245 60 C163.27 59.26, 81.55 63.35, 15 60 C1.52 63.08, 3.6 54.79, 0 45 C2.97 34.45, -0.91 29.31, 0 15 C2.07 3.36, 7.68 1.65, 15 0"
+      fill="#fff4d6"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M15 0 C59.46 2.03, 108.34 1.95, 245 0 M15 0 C79.59 1.84, 142.59 0.6, 245 0 M245 0 C255.37 0.09, 261.05 6.84, 260 15 M245 0 C252.92 -1.92, 259.42 5.91, 260 15 M260 15 C261.25 23.59, 259.95 28.26, 260 45 M260 15 C260.19 25.75, 259.11 35.26, 260 45 M260 45 C261.35 53.2, 256.77 61.17, 245 60 M260 45 C260.41 56.89, 254.91 60.72, 245 60 M245 60 C155.53 59.12, 62.21 58.14, 15 60 M245 60 C196.23 58.51, 146.01 58.29, 15 60 M15 60 C6.84 61.76, 1.4 54.87, 0 45 M15 60 C5.99 59.84, 1.04 56.97, 0 45 M0 45 C0.93 33, -1.67 23.83, 0 15 M0 45 C0.69 36.32, -0.75 27.95, 0 15 M0 15 C-0.97 6.5, 5.79 -1.1, 15 0 M0 15 C-1.74 7.14, 6.62 -1.55, 15 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(370 488) rotate(0 120 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="120"
+      y="14.096"
+    >
+      MF shared singletons:
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="120"
+      y="34.096000000000004"
+    >
+      vue · vue-router (pnpm catalog)
+    </text>
+  </g>
+  <g stroke-linecap="round" transform="translate(10 660) rotate(0 110 40)">
+    <path
+      d="M20 0 C71.59 3.52, 116.42 2.56, 200 0 C209.74 3.14, 217.42 3.37, 220 20 C223.53 29.43, 217.42 41.04, 220 60 C220.22 75.5, 213.63 80.69, 200 80 C154.86 78.84, 108.64 81.25, 20 80 C4.64 80.14, 1.43 70.58, 0 60 C-0.02 48.92, -0.68 40.57, 0 20 C-3.12 8.82, 6.38 2.18, 20 0"
+      fill="#fde3ef"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M20 0 C54.14 -1.94, 93.01 0.75, 200 0 M20 0 C70.88 0.07, 123.18 -0.32, 200 0 M200 0 C211.54 -0.5, 221.35 7.29, 220 20 M200 0 C214.03 1.33, 219.13 8.81, 220 20 M220 20 C218.61 32.4, 219.19 43.09, 220 60 M220 20 C220.32 35.79, 219.74 50.91, 220 60 M220 60 C221.68 73.16, 213.88 81.08, 200 80 M220 60 C219.76 71.51, 212.55 78.26, 200 80 M200 80 C161.69 79.95, 123.8 79.1, 20 80 M200 80 C157.39 80.64, 115.41 81.36, 20 80 M20 80 C6.09 81.73, -1.07 72.59, 0 60 M20 80 C5.68 79.59, -0.92 72.05, 0 60 M0 60 C-1.28 43.91, -0.15 29.14, 0 20 M0 60 C-0.21 44.47, -0.6 29.98, 0 20 M0 20 C1.13 8.12, 5.73 0.59, 20 0 M0 20 C-1.23 7.41, 8.68 -1.94, 20 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(20 688) rotate(0 100 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="100"
+      y="14.096"
+    >
+      packages/uikit
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="100"
+      y="34.096000000000004"
+    >
+      shadcn-vue + Storybook
+    </text>
+  </g>
+  <g stroke-linecap="round" transform="translate(260 660) rotate(0 110 40)">
+    <path
+      d="M20 0 C81.19 -1.56, 151.05 0.01, 200 0 C212.36 1.14, 223.41 9.94, 220 20 C222.41 30.97, 218.37 43.35, 220 60 C217.3 71.44, 215.95 81.08, 200 80 C137.34 78.9, 72.52 78.91, 20 80 C6.09 77.21, -0.73 75.24, 0 60 C-1.59 50.93, 0.96 41.89, 0 20 C-1.11 5.42, 3.4 2.7, 20 0"
+      fill="#fde3ef"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M20 0 C54.16 1.65, 92.55 3.13, 200 0 M20 0 C73.05 0.26, 126.83 -1.08, 200 0 M200 0 C213.38 -1.09, 221.66 6.07, 220 20 M200 0 C212.22 -0.01, 218.84 5.45, 220 20 M220 20 C219.94 33.71, 218.39 47.91, 220 60 M220 20 C219.64 29.49, 219.55 38.9, 220 60 M220 60 C218.02 74.78, 212.66 81, 200 80 M220 60 C219.11 72.39, 211.85 80.41, 200 80 M200 80 C156.93 76.69, 115.24 80.12, 20 80 M200 80 C152.7 79.21, 106.36 78.9, 20 80 M20 80 C7.68 81.71, 0.47 71.98, 0 60 M20 80 C8.31 79.35, 1.71 73.4, 0 60 M0 60 C0.57 43.35, 1.44 30.51, 0 20 M0 60 C-0.36 50.61, 0.31 40.98, 0 20 M0 20 C-0.77 8.07, 8.01 -1.72, 20 0 M0 20 C-0.71 6.02, 4.47 2.27, 20 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(270 688) rotate(0 100 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="100"
+      y="14.096"
+    >
+      packages/typescript
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="100"
+      y="34.096000000000004"
+    >
+      tsconfig-пресеты
+    </text>
+  </g>
+  <g stroke-linecap="round" transform="translate(510 660) rotate(0 110 40)">
+    <path
+      d="M20 0 C61.99 -0.16, 106.47 -3.26, 200 0 C214.97 -0.87, 222.19 9.31, 220 20 C222.73 25.32, 220.75 38.46, 220 60 C221.57 74.58, 211.07 81.47, 200 80 C155.81 78.95, 108.39 76.57, 20 80 C7.54 81.48, -2.89 72.7, 0 60 C4.04 45.74, 2.6 36.01, 0 20 C0.89 9.21, 7.63 3.23, 20 0"
+      fill="#fde3ef"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M20 0 C54.17 1.64, 92.1 1.91, 200 0 M20 0 C75.22 -1.55, 128.49 -1.84, 200 0 M200 0 C215.22 -1.69, 221.96 4.85, 220 20 M200 0 C215 -1.35, 218.56 6.7, 220 20 M220 20 C222.07 35.02, 218.39 52.74, 220 60 M220 20 C219.76 31.2, 220.17 42.9, 220 60 M220 60 C218.35 72.4, 211.43 80.92, 200 80 M220 60 C218.46 73.27, 211.15 77.95, 200 80 M200 80 C156.18 77.44, 110.68 77.15, 20 80 M200 80 C150.01 79.37, 99.3 80.04, 20 80 M20 80 C5.26 81.68, -1.99 71.36, 0 60 M20 80 C6.34 79.1, -0.26 74.75, 0 60 M0 60 C-0.78 42.8, -0.17 27.89, 0 20 M0 60 C-0.51 46.74, 1.22 35.98, 0 20 M0 20 C1.34 8.02, 6.29 -0.03, 20 0 M0 20 C-0.2 4.62, 4.86 1.89, 20 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(520 688) rotate(0 100 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="100"
+      y="14.096"
+    >
+      packages/configs
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="100"
+      y="34.096000000000004"
+    >
+      ultracite · lefthook
+    </text>
+  </g>
+  <g stroke-linecap="round" transform="translate(760 660) rotate(0 110 40)">
+    <path
+      d="M20 0 C78.78 1.24, 133.89 0.67, 200 0 C210.39 -2.87, 220.97 8.69, 220 20 C221.61 34.87, 221.69 49.57, 220 60 C218.65 70.52, 213.38 81.86, 200 80 C138.29 78.29, 79.47 80.7, 20 80 C8.99 78.55, 2.15 70.16, 0 60 C1.03 47.75, 2.8 37.34, 0 20 C2.9 5.81, 4.66 -3.45, 20 0"
+      fill="#fde3ef"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M20 0 C54.18 -2.38, 91.65 0.68, 200 0 M20 0 C75.39 2.24, 132.14 1.01, 200 0 M200 0 C213.06 1.72, 218.27 7.64, 220 20 M200 0 C213.18 1.91, 218.27 7.94, 220 20 M220 20 C219.4 28.33, 221.59 37.57, 220 60 M220 20 C219.88 32.91, 220.78 46.89, 220 60 M220 60 C218.69 74.02, 214.21 80.83, 200 80 M220 60 C217.82 74.15, 215.05 80.09, 200 80 M200 80 C151.42 81.78, 102.11 81.78, 20 80 M200 80 C145.31 81.54, 92.25 81.18, 20 80 M20 80 C6.84 81.66, -0.45 74.75, 0 60 M20 80 C4.37 78.85, -2.22 71.5, 0 60 M0 60 C1.06 50.25, 1.41 41.27, 0 20 M0 60 C0.55 44.88, -0.67 28.98, 0 20 M0 20 C-0.56 7.97, 8.57 1.66, 20 0 M0 20 C0.32 7.83, 5.25 1.5, 20 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(770 688) rotate(0 100 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="100"
+      y="14.096"
+    >
+      packages/core
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="100"
+      y="34.096000000000004"
+    >
+      (из ap.common.web)
+    </text>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(130 580) rotate(0 -5 40)">
+      <path
+        d="M-0.53 -1.18 C-1.96 11.89, -8 65.74, -9.75 79.31 M1.39 0.81 C-0.07 13.95, -8.89 67.01, -10.57 80.49"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(130 580) rotate(0 -5 40)">
+      <path
+        d="M-15.6 56 C-16.39 61.36, -14.55 64.13, -10.57 80.49 M-15.6 56 C-13.96 63.66, -13.5 71.28, -10.57 80.49"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(130 580) rotate(0 -5 40)">
+      <path
+        d="M1.32 58.49 C-2.89 63.28, -4.45 65.55, -10.57 80.49 M1.32 58.49 C-2.42 65.3, -7.34 72.13, -10.57 80.49"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+  </g>
+  <mask></mask>
+  <g stroke-linecap="round">
+    <g transform="translate(810 580) rotate(0 15 40)">
+      <path
+        d="M-0.03 -1.18 C5.29 12.03, 25.65 65.79, 30.7 79.17 M-1.5 0.81 C3.82 14.16, 24.93 67.09, 30.12 80.27"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(810 580) rotate(0 15 40)">
+      <path
+        d="M13.51 61.58 C14.85 66.5, 18.78 69.51, 30.12 80.27 M13.51 61.58 C17.83 65.09, 21.42 69.6, 30.12 80.27"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(810 580) rotate(0 15 40)">
+      <path
+        d="M29.4 55.28 C27.55 61.46, 28.28 65.73, 30.12 80.27 M29.4 55.28 C30.2 60.18, 30.25 66.09, 30.12 80.27"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+  </g>
+  <mask></mask>
+  <g stroke-linecap="round">
+    <g transform="translate(490 410) rotate(0 0 30)">
+      <path
+        d="M0.47 -1.18 C0.86 8.83, 1.37 48.77, 1.15 59.03 M-0.74 0.81 C-0.3 11.04, 0.42 49.88, 0.8 60.05"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(490 410) rotate(0 0 30)">
+      <path
+        d="M-8.39 36.8 C-8.73 43.35, -6.53 44.66, 0.8 60.05 M-8.39 36.8 C-4.63 45.21, -2.7 51.68, 0.8 60.05"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(490 410) rotate(0 0 30)">
+      <path
+        d="M8.71 36.33 C4.93 43.04, 3.69 44.45, 0.8 60.05 M8.71 36.33 C6.88 44.92, 3.22 51.54, 0.8 60.05"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+  </g>
+  <mask></mask>
+  <g stroke-linecap="round" transform="translate(10 810) rotate(0 230 45)">
+    <path
+      d="M22.5 0 C110.7 -4.44, 202.19 -1.32, 437.5 0 C448.91 -0.69, 457.93 7.95, 460 22.5 C460.29 36.23, 461.94 51.43, 460 67.5 C462.13 83.95, 454.75 89.24, 437.5 90 C319.91 87.76, 202.42 85.81, 22.5 90 C9.85 88.41, -3.25 80.17, 0 67.5 C-1.54 47.14, 1.06 32.66, 0 22.5 C-2.88 5.33, 5.27 -2.13, 22.5 0"
+      fill="#efe7fd"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M22.5 0 C104.86 -2.56, 188.35 -1.45, 437.5 0 M22.5 0 C117.82 -0.59, 213.48 -0.91, 437.5 0 M437.5 0 C452.82 -1.76, 459.03 7.43, 460 22.5 M437.5 0 C452.4 0.85, 459.85 7.27, 460 22.5 M460 22.5 C458.68 33.32, 461.55 44.56, 460 67.5 M460 22.5 C459.81 40.58, 460.94 56.16, 460 67.5 M460 67.5 C461.53 81.24, 452.32 88.63, 437.5 90 M460 67.5 C460.79 83.21, 452.47 88.55, 437.5 90 M437.5 90 C345.62 90.46, 253.55 90.85, 22.5 90 M437.5 90 C331.56 89.9, 225.85 90.49, 22.5 90 M22.5 90 C7.64 91.6, -0.6 84.38, 0 67.5 M22.5 90 C7.17 90.54, 2.06 81.73, 0 67.5 M0 67.5 C1.7 55.1, -0.6 43.68, 0 22.5 M0 67.5 C0.34 55.45, -0.24 45.45, 0 22.5 M0 22.5 C0.7 8.68, 9.1 1.88, 22.5 0 M0 22.5 C-0.69 7.47, 7.07 0.54, 22.5 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(20 843) rotate(0 220 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="220"
+      y="14.096"
+    >
+      Bitbucket PR → Jenkins (Ap.Configuration)
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="220"
+      y="34.096000000000004"
+    >
+      pnpm-install → turbo-check → turbo-build → e2e → docker
+    </text>
+  </g>
+  <g stroke-linecap="round" transform="translate(550 810) rotate(0 215 45)">
+    <path
+      d="M22.5 0 C136.22 -2.29, 249.88 -1.65, 407.5 0 C421.53 -2.69, 426.72 7.32, 430 22.5 C429.12 37.55, 432.83 53.29, 430 67.5 C429.21 79.89, 419.86 89.63, 407.5 90 C261.27 94.97, 114.52 95.69, 22.5 90 C4.1 92.68, 1.79 84.83, 0 67.5 C-3.03 49.12, 2.78 33.93, 0 22.5 C-0.87 9.13, 9.49 -1.61, 22.5 0"
+      fill="#efe7fd"
+      stroke="none"
+      stroke-width="0"
+    ></path>
+    <path
+      d="M22.5 0 C98.76 0.89, 178.33 1.37, 407.5 0 M22.5 0 C114.35 -2.19, 206.17 -1.92, 407.5 0 M407.5 0 C420.65 1.65, 429.33 6.21, 430 22.5 M407.5 0 C420.58 -0.49, 429.56 8.51, 430 22.5 M430 22.5 C430.89 34.85, 431.63 49.84, 430 67.5 M430 22.5 C429.06 33.55, 428.68 42.69, 430 67.5 M430 67.5 C431.86 82.86, 421.1 88.54, 407.5 90 M430 67.5 C430.15 84.09, 421.78 90.69, 407.5 90 M407.5 90 C316.34 90.67, 223.16 91.26, 22.5 90 M407.5 90 C301.58 92.19, 194.95 92.23, 22.5 90 M22.5 90 C9.22 91.57, 0.94 83.77, 0 67.5 M22.5 90 C5.2 90.29, 0.1 83.08, 0 67.5 M0 67.5 C-0.46 54.47, 0.98 44.9, 0 22.5 M0 67.5 C0.23 53.23, 0.71 37.75, 0 22.5 M0 22.5 C-1.2 8.63, 7.38 -0.43, 22.5 0 M0 22.5 C-0.18 6.07, 7.46 0.15, 22.5 0"
+      fill="none"
+      stroke="#1e1e1e"
+      stroke-width="2"
+    ></path>
+  </g>
+  <g transform="translate(560 843) rotate(0 205 12)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="205"
+      y="14.096"
+    >
+      Docker: ducktors/turborepo-remote-cache
+    </text>
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#1e1e1e"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="16px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="205"
+      y="34.096000000000004"
+    >
+      общий кэш: CI-агенты + dev-машины
+    </text>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(470 855) rotate(0 40 0)">
+      <path
+        d="M0.59 -1.18 C14.28 -0.87, 67.63 0.62, 80.99 0.71 M-0.57 0.81 C13.16 0.88, 67.07 -0.96, 80.56 -1.04"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(470 855) rotate(0 40 0)">
+      <path
+        d="M57.25 8.01 C60.06 7.72, 67.9 5.52, 80.56 -1.04 M57.25 8.01 C63.81 6.26, 69.62 3.55, 80.56 -1.04"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+    <g transform="translate(470 855) rotate(0 40 0)">
+      <path
+        d="M56.89 -9.08 C59.6 -5.94, 67.52 -4.7, 80.56 -1.04 M56.89 -9.08 C63.52 -6.62, 69.42 -5.12, 80.56 -1.04"
+        fill="none"
+        stroke="#1e1e1e"
+        stroke-width="2"
+      ></path>
+    </g>
+  </g>
+  <mask></mask>
+  <g transform="translate(440 831) rotate(0 75 9)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#666666"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="13px"
+      style="white-space: pre;"
+      text-anchor="middle"
+      x="75"
+      y="11.453"
+    >
+      TURBO_API / TOKEN
+    </text>
+  </g>
+  <g transform="translate(10 920) rotate(0 200 10.5)">
+    <text
+      direction="ltr"
+      dominant-baseline="alphabetic"
+      fill="#666666"
+      font-family="Virgil, Segoe UI Emoji"
+      font-size="14px"
+      style="white-space: pre;"
+      text-anchor="start"
+      x="0"
+      y="12.334"
+    >
+      turbo run build --affected · кэш-хиты между PR, ветками и машинами
+    </text>
+  </g>
+</svg>
