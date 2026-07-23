@@ -1,14 +1,12 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
-    "types": ["vite-plugin-vue-layouts/client"]
-  },
+  "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.app.json" }
   ],
-  "files": []
+  "compilerOptions": {
+    // Shim for the shadcn-vue CLI, which reads paths from this file without
+    // following extends. The build's real alias comes from @ap/typescript/dom.json.
+    "paths": { "@/*": ["./src/*"] }
+  }
 }
