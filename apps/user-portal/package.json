@@ -1,0 +1,26 @@
+{
+  "name": "@ap/user-portal",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ap/ui": "workspace:*",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "@ap/typescript": "workspace:*",
+    "@module-federation/vite": "catalog:",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.1.1",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "tailwindcss": "^4.3.3",
+    "typescript": "catalog:",
+    "vite": "^8.1.5",
+    "vue-tsc": "^3.3.8"
+  }
+}
