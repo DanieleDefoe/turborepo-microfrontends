@@ -10,3 +10,4 @@ minimumReleaseAge: 0
 blockExoticSubdeps: true
 allowBuilds:
   esbuild: true
+  vue-demi: true
