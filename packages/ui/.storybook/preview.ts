@@ -1,21 +1,22 @@
 import type { Preview } from '@storybook/vue3-vite'
+import { withTheme } from './decorators/withTheme'
+import '../src/assets/index.css'
+import '@fontsource-variable/inter'
+import 'vue-sonner/style.css'
 
 const preview: Preview = {
   parameters: {
     controls: {
       matchers: {
-       color: /(background|color)$/i,
-       date: /Date$/i,
+        color: /(background|color)$/i,
+        date: /Date$/i,
       },
     },
-
     a11y: {
-      // 'todo' - show a11y violations in the test UI only
-      // 'error' - fail CI on a11y violations
-      // 'off' - skip a11y checks entirely
-      test: 'todo'
-    }
+      test: 'todo',
+    },
   },
-};
+  decorators: [withTheme],
+}
 
-export default preview;
+export default preview

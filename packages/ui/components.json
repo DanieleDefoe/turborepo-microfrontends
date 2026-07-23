@@ -14,11 +14,11 @@
   "rtl": false,
   "pointer": true,
   "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui",
-    "lib": "@/lib",
-    "composables": "@/composables"
+    "components": "@ap/ui/components",
+    "utils": "@ap/ui/lib/utils",
+    "ui": "@ap/ui/components/ui",
+    "lib": "@ap/ui/lib",
+    "composables": "@ap/ui/composables"
   },
   "menuColor": "default-translucent",
   "menuAccent": "subtle",

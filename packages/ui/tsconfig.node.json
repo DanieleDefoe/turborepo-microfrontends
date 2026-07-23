@@ -1,3 +1,4 @@
 {
-  "extends": "@ap/typescript/node.json"
+  "extends": "@ap/typescript/node.json",
+  "include": ["plugins"]
 }
