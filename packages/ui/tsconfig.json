@@ -5,6 +5,10 @@
     { "path": "./tsconfig.app.json" }
   ],
   "compilerOptions": {
-    "paths": { "@ap/ui/*": ["./src/*"] }
+    "paths": {
+      "@ap/ui/components": ["./src/components/ui"],
+      "@ap/ui/components/*": ["./src/components/ui/*"],
+      "@ap/ui/*": ["./src/*"]
+    }
   }
 }

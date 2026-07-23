@@ -16,7 +16,7 @@
   "aliases": {
     "components": "@ap/ui/components",
     "utils": "@ap/ui/lib/utils",
-    "ui": "@ap/ui/components/ui",
+    "ui": "@ap/ui/components",
     "lib": "@ap/ui/lib",
     "composables": "@ap/ui/composables"
   },
