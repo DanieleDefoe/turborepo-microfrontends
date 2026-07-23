@@ -1,4 +1,6 @@
-# my-monorepo — прототип frontend-монорепозитория
+# turborepo-microfrontends — прототип frontend-монорепозитория
+
+> GitHub: https://github.com/DanieleDefoe/turborepo-microfrontends
 
 Рабочий PoC целевой архитектуры фронтендов: **Turborepo + pnpm (catalog) + Vue 3 + Vite 8 + Module Federation**.
 
