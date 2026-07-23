@@ -26,7 +26,7 @@
     data-slot="sidebar-menu-button"
     :as="as"
     :as-child="asChild"
-    :class="cn(sidebarMenuButtonVariants({ variant, size }), props.class)"
+    :class="cn(sidebarMenuButtonVariants({ size, variant }), props.class)"
     :data-active="isActive || undefined"
     :data-size="size"
     v-bind="$attrs"

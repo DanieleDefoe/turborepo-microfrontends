@@ -8,19 +8,19 @@
 // Make sure to add this file to your tsconfig.json file as an "includes" or "files" entry.
 
 import type {
+  RouteRecordInfo,
   ParamValue,
   ParamValueOneOrMore,
   ParamValueZeroOrMore,
   ParamValueZeroOrOne,
-  RouteRecordInfo,
 } from "vue-router";
 import type { _ExtractParamParserType } from "vue-router/experimental";
 
 declare module "vue-router" {
   interface TypesConfig {
     _ParamParsers: {};
-    _RouteFileInfoMap: import("vue-router/auto-routes")._RouteFileInfoMap;
     RouteNamedMap: import("vue-router/auto-routes").RouteNamedMap;
+    _RouteFileInfoMap: import("vue-router/auto-routes")._RouteFileInfoMap;
   }
 }
 
@@ -269,6 +269,11 @@ declare module "vue-router/auto-routes" {
    * @internal
    */
   export interface _RouteFileInfoMap {
+    "src/pages/index.vue": {
+      routes: "/";
+      views: never;
+      pathParamNames: never;
+    };
     "src/pages/[...path].vue": {
       routes: "/[...path]";
       views: never;
@@ -296,13 +301,13 @@ declare module "vue-router/auto-routes" {
       views: "default";
       pathParamNames: never;
     };
-    "src/pages/auth/forgot-password.vue": {
-      routes: "/auth/forgot-password";
+    "src/pages/auth/index.vue": {
+      routes: "/auth/";
       views: never;
       pathParamNames: never;
     };
-    "src/pages/auth/index.vue": {
-      routes: "/auth/";
+    "src/pages/auth/forgot-password.vue": {
+      routes: "/auth/forgot-password";
       views: never;
       pathParamNames: never;
     };
@@ -311,13 +316,13 @@ declare module "vue-router/auto-routes" {
       views: never;
       pathParamNames: never;
     };
-    "src/pages/auth/sign-in-2.vue": {
-      routes: "/auth/sign-in-2";
+    "src/pages/auth/sign-in.vue": {
+      routes: "/auth/sign-in";
       views: never;
       pathParamNames: never;
     };
-    "src/pages/auth/sign-in.vue": {
-      routes: "/auth/sign-in";
+    "src/pages/auth/sign-in-2.vue": {
+      routes: "/auth/sign-in-2";
       views: never;
       pathParamNames: never;
     };
@@ -348,6 +353,11 @@ declare module "vue-router/auto-routes" {
       views: "default";
       pathParamNames: never;
     };
+    "src/pages/errors/index.vue": {
+      routes: "/errors/";
+      views: never;
+      pathParamNames: never;
+    };
     "src/pages/errors/401.vue": {
       routes: "/errors/401";
       views: never;
@@ -373,23 +383,8 @@ declare module "vue-router/auto-routes" {
       views: never;
       pathParamNames: never;
     };
-    "src/pages/errors/index.vue": {
-      routes: "/errors/";
-      views: never;
-      pathParamNames: never;
-    };
     "src/pages/help-center.vue": {
       routes: "/help-center";
-      views: never;
-      pathParamNames: never;
-    };
-    "src/pages/index.vue": {
-      routes: "/";
-      views: never;
-      pathParamNames: never;
-    };
-    "src/pages/marketing/hello.vue": {
-      routes: "/marketing/hello";
       views: never;
       pathParamNames: never;
     };
@@ -398,8 +393,18 @@ declare module "vue-router/auto-routes" {
       views: never;
       pathParamNames: never;
     };
+    "src/pages/marketing/hello.vue": {
+      routes: "/marketing/hello";
+      views: never;
+      pathParamNames: never;
+    };
     "src/pages/prop-components/index.vue": {
       routes: "/prop-components/";
+      views: never;
+      pathParamNames: never;
+    };
+    "src/pages/settings/index.vue": {
+      routes: "/settings/";
       views: never;
       pathParamNames: never;
     };
@@ -415,11 +420,6 @@ declare module "vue-router/auto-routes" {
     };
     "src/pages/settings/display.vue": {
       routes: "/settings/display";
-      views: never;
-      pathParamNames: never;
-    };
-    "src/pages/settings/index.vue": {
-      routes: "/settings/";
       views: never;
       pathParamNames: never;
     };
@@ -451,3 +451,5 @@ declare module "vue-router/auto-routes" {
       ? Info["routes"]
       : keyof RouteNamedMap;
 }
+
+export {};

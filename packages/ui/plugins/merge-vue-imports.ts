@@ -12,7 +12,7 @@ export const mergeVueImportsInStories = (): Plugin => {
       const specifiers = new Set<string>();
       let hits = 0;
       for (const match of code.matchAll(vueImport)) {
-        hits++;
+        hits += 1;
         for (const spec of match[1].split(",")) {
           const trimmed = spec.trim();
           if (trimmed) {

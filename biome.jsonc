@@ -31,6 +31,36 @@
       }
     },
     {
+      // Biome doesn't model Vue template scope (props are implicitly in
+      // template scope after defineProps; v-slot creates bindings), so this
+      // rule false-positives in SFCs. vue-tsc type-checks templates and
+      // catches genuinely undeclared identifiers.
+      "includes": ["**/*.vue"],
+      "linter": {
+        "rules": {
+          "correctness": { "noUndeclaredVariables": "off" }
+        }
+      }
+    },
+    {
+      // packages/ui is our shadcn-vue kit; these conventions are load-bearing:
+      // PascalCase SFC filenames + single-word names come from the shadcn
+      // generator (and keep upstream diffs clean), the index.ts barrels ARE the
+      // package's exports API, and cva class strings stay unsorted to match
+      // upstream. Everything else stays at full strictness.
+      "includes": ["packages/ui/**"],
+      "linter": {
+        "rules": {
+          "nursery": { "useSortedClasses": "off" },
+          "performance": { "noBarrelFile": "off" },
+          "style": {
+            "useFilenamingConvention": "off",
+            "useVueMultiWordComponentNames": "off"
+          }
+        }
+      }
+    },
+    {
       "includes": ["apps/dashboard/**"],
       "assist": { "enabled": false },
       "linter": {

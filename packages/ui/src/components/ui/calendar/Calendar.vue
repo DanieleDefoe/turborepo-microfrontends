@@ -106,7 +106,7 @@
           class="text-xs h-8 pr-6 pl-2 text-transparent relative"
           @change="(e: Event) => {
             placeholder = placeholder.set({
-              month: Number((e?.target as any)?.value),
+              month: Number((e.target as HTMLSelectElement).value),
             })
           }"
         >
@@ -135,7 +135,7 @@
           class="text-xs h-8 pr-6 pl-2 text-transparent relative"
           @change="(e: Event) => {
             placeholder = placeholder.set({
-              year: Number((e?.target as any)?.value),
+              year: Number((e.target as HTMLSelectElement).value),
             })
           }"
         >
@@ -153,7 +153,7 @@
   </DefineYearTemplate>
 
   <CalendarRoot
-    v-slot="{ grid, weekDays, date }"
+    v-slot="{ date, grid, weekDays }"
     v-bind="forwarded"
     data-slot="calendar"
     v-model:placeholder="placeholder"

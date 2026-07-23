@@ -47,7 +47,9 @@
   function setOpen(value: boolean) {
     open.value = value; // emits('update:open', value)
 
-    // This sets the cookie to keep the sidebar state.
+    // Upstream shadcn pattern: a plain UI-preference cookie (sidebar open
+    // state), readable server-side if we ever SSR — not auth/tracking data.
+    // biome-ignore lint/suspicious/noDocumentCookie: UI preference persistence, shadcn upstream pattern
     document.cookie = `${SIDEBAR_COOKIE_NAME}=${open.value}; path=/; max-age=${SIDEBAR_COOKIE_MAX_AGE}`;
   }
 
