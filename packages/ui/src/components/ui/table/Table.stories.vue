@@ -1,20 +1,35 @@
-<script setup lang="ts">
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableFooter,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from '.'
+<script lang="ts" setup>
+  import {
+    Table,
+    TableBody,
+    TableCaption,
+    TableCell,
+    TableFooter,
+    TableHead,
+    TableHeader,
+    TableRow,
+  } from ".";
 
-const invoices = [
-  { invoice: 'INV001', status: 'Paid', method: 'Credit Card', amount: '$250.00' },
-  { invoice: 'INV002', status: 'Pending', method: 'PayPal', amount: '$150.00' },
-  { invoice: 'INV003', status: 'Unpaid', method: 'Bank Transfer', amount: '$350.00' },
-]
+  const invoices = [
+    {
+      amount: "$250.00",
+      invoice: "INV001",
+      method: "Credit Card",
+      status: "Paid",
+    },
+    {
+      amount: "$150.00",
+      invoice: "INV002",
+      method: "PayPal",
+      status: "Pending",
+    },
+    {
+      amount: "$350.00",
+      invoice: "INV003",
+      method: "Bank Transfer",
+      status: "Unpaid",
+    },
+  ];
 </script>
 
 <template>

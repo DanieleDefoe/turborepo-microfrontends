@@ -1,32 +1,33 @@
-<script setup lang="ts">
-import type { SwitchRootEmits, SwitchRootProps } from 'reka-ui'
-import type { HTMLAttributes } from 'vue'
-import { reactiveOmit } from '@vueuse/core'
-import {
-  SwitchRoot,
-  SwitchThumb,
-  useForwardPropsEmits,
-} from 'reka-ui'
-import { cn } from '@ap/ui/lib/utils'
+<script lang="ts" setup>
+  import { cn } from "@ap/ui/lib/utils";
+  import { reactiveOmit } from "@vueuse/core";
+  import type { SwitchRootEmits, SwitchRootProps } from "reka-ui";
+  import { SwitchRoot, SwitchThumb, useForwardPropsEmits } from "reka-ui";
+  import type { HTMLAttributes } from "vue";
 
-const props = withDefaults(defineProps<SwitchRootProps & {
-  class?: HTMLAttributes['class']
-  size?: 'sm' | 'default'
-}>(), {
-  size: 'default',
-})
+  const props = withDefaults(
+    defineProps<
+      SwitchRootProps & {
+        class?: HTMLAttributes["class"];
+        size?: "sm" | "default";
+      }
+    >(),
+    {
+      size: "default",
+    }
+  );
 
-const emits = defineEmits<SwitchRootEmits>()
+  const emits = defineEmits<SwitchRootEmits>();
 
-const delegatedProps = reactiveOmit(props, 'class', 'size')
+  const delegatedProps = reactiveOmit(props, "class", "size");
 
-const forwarded = useForwardPropsEmits(delegatedProps, emits)
+  const forwarded = useForwardPropsEmits(delegatedProps, emits);
 </script>
 
 <template>
   <SwitchRoot
-    v-slot="slotProps"
     data-slot="switch"
+    v-slot="slotProps"
     :data-size="size"
     v-bind="forwarded"
     :class="cn(
@@ -35,8 +36,8 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
     )"
   >
     <SwitchThumb
-      data-slot="switch-thumb"
       class="bg-background dark:data-unchecked:bg-foreground dark:data-checked:bg-primary-foreground rounded-full group-data-[size=default]/switch:size-4 group-data-[size=sm]/switch:size-3 group-data-[size=default]/switch:data-checked:translate-x-[calc(100%-2px)] group-data-[size=sm]/switch:data-checked:translate-x-[calc(100%-2px)] group-data-[size=default]/switch:data-unchecked:translate-x-0 group-data-[size=sm]/switch:data-unchecked:translate-x-0 pointer-events-none block ring-0 transition-transform"
+      data-slot="switch-thumb"
     >
       <slot name="thumb" v-bind="slotProps" />
     </SwitchThumb>

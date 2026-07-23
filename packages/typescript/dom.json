@@ -10,5 +10,9 @@
     "${configDir}/src/**/*.tsx",
     "${configDir}/src/**/*.vue"
   ],
-  "exclude": ["${configDir}/src/**/__tests__/*", "${configDir}/src/**/*.stories.*", "${configDir}/dist"]
+  "exclude": [
+    "${configDir}/src/**/__tests__/*",
+    "${configDir}/src/**/*.stories.*",
+    "${configDir}/dist"
+  ]
 }

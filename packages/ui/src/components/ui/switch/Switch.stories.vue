@@ -1,8 +1,8 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-import { Switch } from '.'
+<script lang="ts" setup>
+  import { ref } from "vue";
+  import { Switch } from ".";
 
-const on = ref(true)
+  const on = ref(true);
 </script>
 
 <template>

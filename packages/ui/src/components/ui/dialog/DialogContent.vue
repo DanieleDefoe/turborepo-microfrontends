@@ -1,31 +1,38 @@
-<script setup lang="ts">
-import type { DialogContentEmits, DialogContentProps } from 'reka-ui'
+<script lang="ts" setup>
+  import { Button } from "@ap/ui/components/button";
+  import { cn } from "@ap/ui/lib/utils";
+  import { XIcon } from "@lucide/vue";
+  import { reactiveOmit } from "@vueuse/core";
+  import type { DialogContentEmits, DialogContentProps } from "reka-ui";
+  import {
+    DialogClose,
+    DialogContent,
+    DialogPortal,
+    useForwardPropsEmits,
+  } from "reka-ui";
+  import type { HTMLAttributes } from "vue";
+  import DialogOverlay from "./DialogOverlay.vue";
 
-import type { HTMLAttributes } from 'vue'
-import { XIcon } from '@lucide/vue'
-import { reactiveOmit } from '@vueuse/core'
-import {
-  DialogClose,
-  DialogContent,
-  DialogPortal,
-  useForwardPropsEmits,
-} from 'reka-ui'
-import { cn } from '@ap/ui/lib/utils'
-import { Button } from '@ap/ui/components/button'
-import DialogOverlay from './DialogOverlay.vue'
+  defineOptions({
+    inheritAttrs: false,
+  });
 
-defineOptions({
-  inheritAttrs: false,
-})
+  const props = withDefaults(
+    defineProps<
+      DialogContentProps & {
+        class?: HTMLAttributes["class"];
+        showCloseButton?: boolean;
+      }
+    >(),
+    {
+      showCloseButton: true,
+    }
+  );
+  const emits = defineEmits<DialogContentEmits>();
 
-const props = withDefaults(defineProps<DialogContentProps & { class?: HTMLAttributes['class'], showCloseButton?: boolean }>(), {
-  showCloseButton: true,
-})
-const emits = defineEmits<DialogContentEmits>()
+  const delegatedProps = reactiveOmit(props, "class");
 
-const delegatedProps = reactiveOmit(props, 'class')
-
-const forwarded = useForwardPropsEmits(delegatedProps, emits)
+  const forwarded = useForwardPropsEmits(delegatedProps, emits);
 </script>
 
 <template>
@@ -38,12 +45,8 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
     >
       <slot />
 
-      <DialogClose
-        v-if="showCloseButton"
-        data-slot="dialog-close"
-        as-child
-      >
-        <Button variant="ghost" class="absolute top-2 right-2" size="icon-sm">
+      <DialogClose as-child data-slot="dialog-close" v-if="showCloseButton">
+        <Button class="absolute top-2 right-2" size="icon-sm" variant="ghost">
           <XIcon />
           <span class="sr-only">Close</span>
         </Button>

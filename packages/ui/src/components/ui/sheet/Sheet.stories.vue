@@ -1,15 +1,15 @@
-<script setup lang="ts">
-import { Button } from '../button'
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetDescription,
-  SheetFooter,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from '.'
+<script lang="ts" setup>
+  import { Button } from "../button";
+  import {
+    Sheet,
+    SheetClose,
+    SheetContent,
+    SheetDescription,
+    SheetFooter,
+    SheetHeader,
+    SheetTitle,
+    SheetTrigger,
+  } from ".";
 </script>
 
 <template>

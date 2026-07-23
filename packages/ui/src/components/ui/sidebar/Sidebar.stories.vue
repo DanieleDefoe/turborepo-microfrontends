@@ -1,19 +1,19 @@
-<script setup lang="ts">
-import {
-  Sidebar,
-  SidebarContent,
-  SidebarFooter,
-  SidebarGroup,
-  SidebarGroupContent,
-  SidebarGroupLabel,
-  SidebarHeader,
-  SidebarInset,
-  SidebarMenu,
-  SidebarMenuButton,
-  SidebarMenuItem,
-  SidebarProvider,
-  SidebarTrigger,
-} from '.'
+<script lang="ts" setup>
+  import {
+    Sidebar,
+    SidebarContent,
+    SidebarFooter,
+    SidebarGroup,
+    SidebarGroupContent,
+    SidebarGroupLabel,
+    SidebarHeader,
+    SidebarInset,
+    SidebarMenu,
+    SidebarMenuButton,
+    SidebarMenuItem,
+    SidebarProvider,
+    SidebarTrigger,
+  } from ".";
 </script>
 
 <template>
@@ -21,7 +21,9 @@ import {
     <Story title="Default">
       <SidebarProvider>
         <Sidebar>
-          <SidebarHeader class="p-2 text-sm font-semibold">Acme Inc</SidebarHeader>
+          <SidebarHeader class="p-2 text-sm font-semibold"
+            >Acme Inc</SidebarHeader
+          >
           <SidebarContent>
             <SidebarGroup>
               <SidebarGroupLabel>Application</SidebarGroupLabel>
@@ -40,7 +42,9 @@ import {
               </SidebarGroupContent>
             </SidebarGroup>
           </SidebarContent>
-          <SidebarFooter class="text-muted-foreground p-2 text-xs">v1.0.0</SidebarFooter>
+          <SidebarFooter class="text-muted-foreground p-2 text-xs"
+            >v1.0.0</SidebarFooter
+          >
         </Sidebar>
         <SidebarInset>
           <header class="flex h-12 items-center gap-2 border-b px-4">

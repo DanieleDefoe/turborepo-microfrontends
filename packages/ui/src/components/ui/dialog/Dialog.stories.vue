@@ -1,16 +1,16 @@
-<script setup lang="ts">
-import { Button } from '../button'
-import { Input } from '../input'
-import {
-  Dialog,
-  DialogClose,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '.'
+<script lang="ts" setup>
+  import { Button } from "../button";
+  import { Input } from "../input";
+  import {
+    Dialog,
+    DialogClose,
+    DialogContent,
+    DialogDescription,
+    DialogFooter,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+  } from ".";
 </script>
 
 <template>

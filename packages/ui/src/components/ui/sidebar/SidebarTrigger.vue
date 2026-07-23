@@ -1,24 +1,23 @@
-<script setup lang="ts">
-import type { HTMLAttributes } from 'vue'
+<script lang="ts" setup>
+  import { Button } from "@ap/ui/components/button";
+  import { cn } from "@ap/ui/lib/utils";
+  import { PanelLeftIcon } from "@lucide/vue";
+  import type { HTMLAttributes } from "vue";
+  import { useSidebar } from "./utils";
 
-import { PanelLeftIcon } from '@lucide/vue'
-import { cn } from '@ap/ui/lib/utils'
-import { Button } from '@ap/ui/components/button'
-import { useSidebar } from './utils'
+  const props = defineProps<{
+    class?: HTMLAttributes["class"];
+  }>();
 
-const props = defineProps<{
-  class?: HTMLAttributes['class']
-}>()
-
-const { toggleSidebar } = useSidebar()
+  const { toggleSidebar } = useSidebar();
 </script>
 
 <template>
   <Button
     data-sidebar="trigger"
     data-slot="sidebar-trigger"
-    variant="ghost"
     size="icon-sm"
+    variant="ghost"
     :class="cn('', props.class)"
     @click="toggleSidebar"
   >

@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import { NativeSelect, NativeSelectOptGroup, NativeSelectOption } from '.'
+<script lang="ts" setup>
+  import { NativeSelect, NativeSelectOptGroup, NativeSelectOption } from ".";
 </script>
 
 <template>

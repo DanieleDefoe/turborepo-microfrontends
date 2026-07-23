@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import { Skeleton } from '.'
+<script lang="ts" setup>
+  import { Skeleton } from ".";
 </script>
 
 <template>

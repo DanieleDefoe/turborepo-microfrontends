@@ -1,6 +1,6 @@
-<script setup lang="ts">
-import { Button } from '../button'
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '.'
+<script lang="ts" setup>
+  import { Button } from "../button";
+  import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from ".";
 </script>
 
 <template>

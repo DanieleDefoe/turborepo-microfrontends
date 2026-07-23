@@ -1,18 +1,20 @@
-<script setup lang="ts">
-import type { PrimitiveProps } from 'reka-ui'
-import type { HTMLAttributes } from 'vue'
-import { Primitive } from 'reka-ui'
-import { cn } from '@ap/ui/lib/utils'
+<script lang="ts" setup>
+  import { cn } from "@ap/ui/lib/utils";
+  import type { PrimitiveProps } from "reka-ui";
+  import { Primitive } from "reka-ui";
+  import type { HTMLAttributes } from "vue";
 
-const props = defineProps<PrimitiveProps & {
-  class?: HTMLAttributes['class']
-}>()
+  const props = defineProps<
+    PrimitiveProps & {
+      class?: HTMLAttributes["class"];
+    }
+  >();
 </script>
 
 <template>
   <Primitive
-    data-slot="sidebar-group-label"
     data-sidebar="group-label"
+    data-slot="sidebar-group-label"
     :as="as"
     :as-child="asChild"
     :class="cn(

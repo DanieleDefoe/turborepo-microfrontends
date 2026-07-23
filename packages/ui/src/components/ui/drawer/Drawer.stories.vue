@@ -1,15 +1,15 @@
-<script setup lang="ts">
-import { Button } from '../button'
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
-} from '.'
+<script lang="ts" setup>
+  import { Button } from "../button";
+  import {
+    Drawer,
+    DrawerClose,
+    DrawerContent,
+    DrawerDescription,
+    DrawerFooter,
+    DrawerHeader,
+    DrawerTitle,
+    DrawerTrigger,
+  } from ".";
 </script>
 
 <template>
@@ -23,7 +23,9 @@ import {
           <div class="mx-auto w-full max-w-sm">
             <DrawerHeader>
               <DrawerTitle>Are you absolutely sure?</DrawerTitle>
-              <DrawerDescription>This action cannot be undone.</DrawerDescription>
+              <DrawerDescription
+                >This action cannot be undone.</DrawerDescription
+              >
             </DrawerHeader>
             <DrawerFooter>
               <Button>Confirm</Button>

@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import { Calendar } from '.'
+<script lang="ts" setup>
+  import { Calendar } from ".";
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import { Calendar } from '.'
     </Story>
 
     <Story title="Month And Year Dropdowns">
-      <Calendar layout="month-and-year" class="w-fit rounded-lg border" />
+      <Calendar class="w-fit rounded-lg border" layout="month-and-year" />
     </Story>
   </Stories>
 </template>

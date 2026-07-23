@@ -1,21 +1,20 @@
-<script setup lang="ts">
-import type { HTMLAttributes } from 'vue'
-import { cn } from '@ap/ui/lib/utils'
-import { useSidebar } from './utils'
+<script lang="ts" setup>
+  import { cn } from "@ap/ui/lib/utils";
+  import type { HTMLAttributes } from "vue";
+  import { useSidebar } from "./utils";
 
-const props = defineProps<{
-  class?: HTMLAttributes['class']
-}>()
+  const props = defineProps<{
+    class?: HTMLAttributes["class"];
+  }>();
 
-const { toggleSidebar } = useSidebar()
+  const { toggleSidebar } = useSidebar();
 </script>
 
 <template>
   <button
+    aria-label="Toggle Sidebar"
     data-sidebar="rail"
     data-slot="sidebar-rail"
-    aria-label="Toggle Sidebar"
-    :tabindex="-1"
     title="Toggle Sidebar"
     :class="cn(
       'hover:after:bg-sidebar-border absolute inset-y-0 z-20 hidden w-4 transition-all ease-linear group-data-[side=left]:-right-4 group-data-[side=right]:left-0 after:absolute after:inset-y-0 after:start-1/2 after:w-0.5 sm:flex ltr:-translate-x-1/2 rtl:-translate-x-1/2',
@@ -26,6 +25,7 @@ const { toggleSidebar } = useSidebar()
       '[[data-side=right][data-collapsible=offcanvas]_&]:-left-2',
       props.class,
     )"
+    :tabindex="-1"
     @click="toggleSidebar"
   >
     <slot />

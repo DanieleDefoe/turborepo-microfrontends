@@ -1,8 +1,15 @@
-<script setup lang="ts">
-import { Button } from '.'
+<script lang="ts" setup>
+  import { Button } from ".";
 
-const variants = ['default', 'outline', 'secondary', 'ghost', 'destructive', 'link'] as const
-const sizes = ['xs', 'sm', 'default', 'lg'] as const
+  const variants = [
+    "default",
+    "outline",
+    "secondary",
+    "ghost",
+    "destructive",
+    "link",
+  ] as const;
+  const sizes = ["xs", "sm", "default", "lg"] as const;
 </script>
 
 <template>
