@@ -1,7 +1,11 @@
 {
   "extends": "@ap/typescript/dom.json",
   "compilerOptions": {
-    "types": ["vite/client", "vite-plugin-vue-layouts/client"]
+    "types": ["vite/client", "vite-plugin-vue-layouts/client"],
+    // The template excludes src/components/ui from type-checking while still
+    // importing from it; composite projects reject that (TS6307). Non-composite
+    // references are the template's original, working arrangement.
+    "composite": false
   },
   "exclude": ["${configDir}/src/components/ui", "${configDir}/dist"]
 }
