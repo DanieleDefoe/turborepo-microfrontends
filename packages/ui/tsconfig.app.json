@@ -1,3 +1,6 @@
 {
-  "extends": "@ap/typescript/dom.json"
+  "extends": "@ap/typescript/dom.json",
+  "compilerOptions": {
+    "strictNullChecks": true
+  }
 }

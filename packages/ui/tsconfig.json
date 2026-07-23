@@ -9,6 +9,7 @@
       "@ap/ui/components": ["./src/components/ui"],
       "@ap/ui/components/*": ["./src/components/ui/*"],
       "@ap/ui/*": ["./src/*"]
-    }
+    },
+    "strictNullChecks": true
   }
 }

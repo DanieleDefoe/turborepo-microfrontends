@@ -10,4 +10,5 @@ minimumReleaseAge: 0
 blockExoticSubdeps: true
 allowBuilds:
   esbuild: true
+  lefthook: true
   vue-demi: true
