@@ -3,7 +3,7 @@
 | | |
 | --- | --- |
 | **Статус** | Draft / на обсуждении |
-| **Задача** | ANP20-XXX (проставляется после создания) |
+| **Задача** | [ANP20-510](https://jira.ap-team.ru/browse/ANP20-510) |
 | **Дата** | 2026-07-24 |
 | **Прототип** | [github.com/DanieleDefoe/turborepo-microfrontends](https://github.com/DanieleDefoe/turborepo-microfrontends) — рабочий PoC (turborepo + shell/remotes + uikit) |
 
